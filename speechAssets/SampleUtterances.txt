@@ -1,0 +1,3 @@
+ChangeColorIntent go {BlinktColor}
+TurnOffIntent off
+TurnOffIntent turn off

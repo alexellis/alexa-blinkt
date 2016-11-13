@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "ChangeColorIntent",
+      "slots": [{
+        "name": "BlinktColor",
+        "type": "BlinktColor"
+        }
+      ]
+    },
+    {
+      "intent": "TurnOffIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
