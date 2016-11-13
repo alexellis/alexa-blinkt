@@ -1,5 +1,19 @@
-# Sample AWS Lambda function for Alexa
-A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a skill for the Amazon Echo using the Alexa SDK.
+# AWS Lambda function for Alexa (Pimoroni Blinkt)
+
+A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a skill for the Amazon Echo using the Alexa SDK
+
+## Quick overview:
+
+* Follow this guide replacing "Hello World" for "Blink" or "Blinkt" - it's more likely that Alexa will understand "Blink"
+
+* Configure your blinkt and run this code on the Pi:
+
+[mqtt.py](https://github.com/pimoroni/blinkt/blob/master/examples/mqtt.py)
+
+**Phrases:**
+
+* Alexa tell blinkt [to] go red/greenb/lue
+* Alexa tell blinkt turn off
 
 ## Concepts
 This simple sample has no external dependencies or session management, and shows the most basic example of how to create a Lambda function for handling Alexa Skill requests.
