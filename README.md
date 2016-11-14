@@ -12,9 +12,7 @@ Check out the demo on Youtube:
 
 * Follow this guide replacing "Hello World" for "Blink" or "Blinkt" - it's more likely that Alexa will understand "Blink"
 
-* Configure your blinkt and run this code on the Pi:
-
-[mqtt.py](https://github.com/pimoroni/blinkt/blob/master/examples/mqtt.py)
+* Configure your blinkt and run this code on the Pi: [mqtt.py](https://github.com/pimoroni/blinkt/blob/master/examples/mqtt.py)
 
 This Alexa skill works by sending an MQTT signal to iot.eclipse.org - the Raspberry Pi runs an MQTT subscription to a channel (topic) pimoroni/blinkt and decodes the incoming string such as `rgb,1,255,0,0`.
 
