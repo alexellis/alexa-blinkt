@@ -2,6 +2,12 @@
 
 A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a skill for the Amazon Echo using the Alexa SDK
 
+## Working demo video
+
+Check out the demo on Youtube:
+
+[https://www.youtube.com/watch?v=uOahF3VAzR8](https://www.youtube.com/watch?v=uOahF3VAzR8)
+
 ## Quick overview:
 
 * Follow this guide replacing "Hello World" for "Blink" or "Blinkt" - it's more likely that Alexa will understand "Blink"
@@ -9,6 +15,8 @@ A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates h
 * Configure your blinkt and run this code on the Pi:
 
 [mqtt.py](https://github.com/pimoroni/blinkt/blob/master/examples/mqtt.py)
+
+This Alexa skill works by sending an MQTT signal to iot.eclipse.org - the Raspberry Pi runs an MQTT subscription to a channel (topic) pimoroni/blinkt and decodes the incoming string such as `rgb,1,255,0,0`.
 
 **Phrases:**
 
